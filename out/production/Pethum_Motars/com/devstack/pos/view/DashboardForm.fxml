@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="context" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.devstack.pos.controller.DashboardFormController">
+   <children>
+      <Label layoutX="19.0" layoutY="14.0" text="Dashboard" textFill="#bc3939">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Separator layoutX="19.0" layoutY="46.0" prefHeight="2.0" prefWidth="563.0" />
+      <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="30.0" layoutY="78.0" onAction="#customerManagmentOnAction" prefHeight="127.0" prefWidth="165.0" style="-fx-background-color: #44bd32;" text="Customer Managment" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="218.0" layoutY="78.0" onAction="#productManagmentOnAction" prefHeight="127.0" prefWidth="165.0" style="-fx-background-color: #e1b12c;" text="Product Managment" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="404.0" layoutY="78.0" onAction="#plactOrderOnAction" prefHeight="127.0" prefWidth="165.0" style="-fx-background-color: #9c88ff;" text="Place Order" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="30.0" layoutY="230.0" onAction="#orderDetailsOnAction" prefHeight="127.0" prefWidth="254.0" style="-fx-background-color: #e84118;" text="Order Details" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="315.0" layoutY="230.0" onAction="#incomeReportOnAction" prefHeight="127.0" prefWidth="254.0" style="-fx-background-color: #0097e6;" text="Income Report" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
